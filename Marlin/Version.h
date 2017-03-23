@@ -57,8 +57,8 @@
    * but not limited to: ADD, DELETE RENAME OR REPURPOSE any directive/option on
    * the configuration files.
    */
-  #define REQUIRED_CONFIGURATION_H_VERSION 010100
-  #define REQUIRED_CONFIGURATION_ADV_H_VERSION 010100
+  #define REQUIRED_CONFIGURATION_H_VERSION 010101
+  #define REQUIRED_CONFIGURATION_ADV_H_VERSION 010101
 
   /**
    * @todo: Missing documentation block
@@ -68,7 +68,7 @@
   /**
    * Defines a generic printer name to be output to the LCD after booting Marlin.
    */
-  #define MACHINE_NAME "3D Printer"
+  #define MACHINE_NAME "TinyBoy (TM) 2 E16"
 
   /**
    * The SOURCE_CODE_URL is the location where users will find the Marlin Source
@@ -76,12 +76,12 @@
    * has a distinct Github fork— the Source Code URL should just be the main
    * Marlin repository.
    */
-  #define SOURCE_CODE_URL "https://github.com/MarlinFirmware/Marlin"
+  #define SOURCE_CODE_URL "https://github.com/wanleung/Marlin"
 
   /**
    * Default generic printer UUID.
    */
-  #define DEFAULT_MACHINE_UUID "cede2a2f-41a2-4748-9b12-c55c62f367ff"
+  #define DEFAULT_MACHINE_UUID "e5e0e671-6422-4fea-b8b0-ab5f93e2d2cd"
 
   /**
    * The WEBSITE_URL is the location where users can get more information such as

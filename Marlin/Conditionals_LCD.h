@@ -190,6 +190,12 @@
     #define NEWPANEL
   #endif
 
+  #if ENABLED(TINYBOY2_OLED_I2C_CONTROLLER)
+    #define DOGLCD
+    #define ULTIPANEL
+    #define NEWPANEL
+  #endif
+
   #if ENABLED(DOGLCD) // Change number of lines to match the DOG graphic display
     #ifndef LCD_WIDTH
       #define LCD_WIDTH 22

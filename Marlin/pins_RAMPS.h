@@ -329,6 +329,15 @@
       // not connected to a pin
       #define SD_DETECT_PIN 49
 
+    #elif ENABLED(TINYBOY2_OLED_I2C_CONTROLLER)
+      #define BTN_EN1 31
+      #define BTN_EN2 33
+      #define BTN_ENC 35
+      #define BEEPER_PIN 37
+      #define LCD_SDSS 53
+      #define SD_DETECT_PIN -1
+      #define KILL_PIN -1
+
     #else
 
       // Beeper on AUX-4
